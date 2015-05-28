@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="coventryuniversity.locationmonitoring.AddUserActivity"
+    android:orientation="vertical">
+
+    <TextView android:text="Edit User Permission" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Phone Number" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView android:id="@+id/editPhoneNumber" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Name" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView android:id="@+id/editName" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Select user permission" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPermissionRadioButtonGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Location"
+            android:id="@+id/editGivePermission" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not share location"
+            android:id="@+id/editDoNotGivePermission" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Permission"
+        android:id="@+id/editUserButton" />
+</LinearLayout>

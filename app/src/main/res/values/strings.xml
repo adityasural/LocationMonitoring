@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LocationMonitoring</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second_main">SecondMainActivity</string>
+    <string name="random_text">Copy Written Text to Text View Area in the next screen</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="send_text_button">Send Location Info</string>
+    <string name="title_activity_share_location">ShareLocationActivity</string>
+    <string name="title_activity_request_location">RequestLocationActivity</string>
+
+    <!--Home page strings-->
+    <string name="welcome_text">Welcome to IAmAt App</string>
+    <string name="share_location">Share my location</string>
+    <string name="request_location">Request location</string>
+    <string name="periodic_share">Share location periodically</string>
+    <string name="register_numbers">Register a Number</string>
+    <string name="broadcast_location">Broadcast location</string>
+    <string name="title_activity_manage_numbers">ManageNumbersActivity</string>
+    <string name="title_activity_add_user">AddUserActivity</string>
+
+    <!--Periodic share strings-->
+    <string name="seconds_prompt">Choose the interval in seconds</string>
+
+    <string-array name="seconds">
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+    <string name="title_activity_edit_user">EditUserActivity</string>
+</resources>

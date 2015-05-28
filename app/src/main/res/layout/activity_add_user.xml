@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="coventryuniversity.locationmonitoring.AddUserActivity"
+    android:orientation="vertical">
+
+    <TextView android:text="Add new user" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Enter phone number" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phoneNumber" />
+
+    <TextView android:text="Select user permission" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/permissionRadioButtonGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Location"
+            android:id="@+id/givePermission" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not share location"
+            android:id="@+id/doNotGivePermission" />
+    </RadioGroup>
+
+    <TextView android:text="Enter his name" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/userName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:id="@+id/addUserButton" />
+</LinearLayout>
