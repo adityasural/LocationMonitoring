@@ -27,7 +27,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Broadcast your location"
+        android:text="Shake the mobile or press here to broadcast your location"
         android:id="@+id/broadcastLocationButton"
         android:layout_marginTop="20dp" />
     <Button

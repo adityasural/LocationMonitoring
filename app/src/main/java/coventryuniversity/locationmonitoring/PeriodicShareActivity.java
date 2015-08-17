@@ -79,6 +79,8 @@ public class PeriodicShareActivity extends Activity{
             return true;
         }
 
+
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -118,5 +120,9 @@ public class PeriodicShareActivity extends Activity{
         manager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
         manager.cancel(pendingIntent);
         Toast.makeText(this, "Stopped sharing location", Toast.LENGTH_SHORT).show();
+
+
     }
+
+
 }
